@@ -16,41 +16,41 @@ A comprehensive Python-based habit tracking application to help you build and ma
 
 ## Project Structure
 
-```
+
 habit_tracker/
-â”œâ”€â”€ habit.py              # Habit class with streak calculation
-â”œâ”€â”€ habit_manager.py      # Manages multiple habits and persistence
-â”œâ”€â”€ analytics.py          # Pure analytics functions
-â”œâ”€â”€ visualize.py          # Visual analytics with matplotlib
-â”œâ”€â”€ main.py              # CLI application entry point
-â”œâ”€â”€ test_phase1.py       # Phase 1 functionality tests
-â”œâ”€â”€ test_app.py          # Comprehensive integration tests
-â”œâ”€â”€ .gitignore           # Git ignore rules
-â”œâ”€â”€ habits.json          # Persistent data storage (auto-generated)
-â”œâ”€â”€ tests/               # Test directory
-â”‚   â”œâ”€â”€ test_unit.py     # Comprehensive unit tests (25 tests)
-â”‚   â”œâ”€â”€ test_data_*.json # Sample test data (4 weeks)
-â”‚   â””â”€â”€ README.md        # Test data documentation
-â””â”€â”€ visualizations/      # Generated charts and graphs
-    â””â”€â”€ *.png            # Visualization outputs
-```
+-habit.py              # Habit class with streak calculation
+- habit_manager.py      # Manages multiple habits and persistence
+-analytics.py          # Pure analytics functions
+-visualize.py          # Visual analytics with matplotlib
+-main.py              # CLI application entry point
+-test_phase1.py       # Phase 1 functionality tests
+-test_app.py          # Comprehensive integration tests
+-.gitignore           # Git ignore rules
+-habits.json          # Persistent data storage (auto-generated)
+-tests/               # Test directory
+-test_unit.py     # Comprehensive unit tests (25 tests)
+-test_data_*.json # Sample test data (4 weeks)
+-README.md        # Test data documentation
+-visualizations/      # Generated charts and graphs
+-*.png            # Visualization outputs
+
 
 ## Code Quality
 
 ### Design Principles
 
-âœ… **Modular Architecture**: Clean separation of concerns
+**Modular Architecture**: Clean separation of concerns
 - `Habit` class: Core habit logic and streak calculations
 - `HabitManager`: Persistence and CRUD operations  
 - `analytics.py`: Pure functions for data analysis
 - `visualize.py`: Visual analytics generation
 
-âœ… **Python Naming Conventions**:
+**Python Naming Conventions**:
 - Classes: `PascalCase` (Habit, HabitManager)
 - Functions: `snake_case` (calculate_streak, list_all_habits)
 - Variables: `snake_case` (periodicity, completion_time)
 
-âœ… **Best Practices**:
+**Best Practices**:
 - Type hints for clarity
 - Comprehensive docstrings
 - Error handling with meaningful exceptions
@@ -145,29 +145,29 @@ Example:
 ### Test Coverage
 
 **Habit Class**:
-- âœ… Creation and initialization
-- âœ… Mark complete (with/without custom time)
-- âœ… Streak calculation (daily/weekly, empty, with gaps)
-- âœ… Serialization (to_dict/from_dict)
+-Creation and initialization
+-Mark complete (with/without custom time)
+-Streak calculation (daily/weekly, empty, with gaps)
+-Serialization (to_dict/from_dict)
 
 **HabitManager Class**:
-- âœ… Initialization with predefined habits
-- âœ… Create habit (including duplicate prevention)
-- âœ… Delete habit
-- âœ… Check off habit
-- âœ… Data persistence (save/load JSON)
+- Initialization with predefined habits
+- Create habit (including duplicate prevention)
+- Delete habit
+- Check off habit
+- Data persistence (save/load JSON)
 
 **Analytics Functions**:
-- âœ… List all habits (alphabetical sorting)
-- âœ… Filter by periodicity
-- âœ… Get longest streak (including empty list)
-- âœ… Get streak for habit (including error handling)
+- List all habits (alphabetical sorting)
+- Filter by periodicity
+- Get longest streak (including empty list)
+- Get streak for habit (including error handling)
 
 **Edge Cases**:
-- âœ… Future creation dates
-- âœ… Old creation dates (365+ days)
-- âœ… Multiple completions same day
-- âœ… Error handling (non-existent habits, duplicates)
+- Future creation dates
+- Old creation dates (365+ days)
+- Multiple completions same day
+- Error handling (non-existent habits, duplicates)
 
 ### Running Tests
 

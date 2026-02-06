@@ -19,7 +19,7 @@ A comprehensive Python-based habit tracking application to help you build and ma
 
 habit_tracker/
 -habit.py              # Habit class with streak calculation
-- habit_manager.py      # Manages multiple habits and persistence
+-habit_manager.py      # Manages multiple habits and persistence
 -analytics.py          # Pure analytics functions
 -visualize.py          # Visual analytics with matplotlib
 -main.py              # CLI application entry point

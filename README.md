@@ -18,21 +18,22 @@ A comprehensive Python-based habit tracking application to help you build and ma
 
 
 habit_tracker/
--habit.py              # Habit class with streak calculation
--habit_manager.py      # Manages multiple habits and persistence
--analytics.py          # Pure analytics functions
--visualize.py          # Visual analytics with matplotlib
--main.py              # CLI application entry point
--test_phase1.py       # Phase 1 functionality tests
--test_app.py          # Comprehensive integration tests
--.gitignore           # Git ignore rules
--habits.json          # Persistent data storage (auto-generated)
--tests/               # Test directory
--test_unit.py     # Comprehensive unit tests (25 tests)
--test_data_*.json # Sample test data (4 weeks)
--README.md        # Test data documentation
--visualizations/      # Generated charts and graphs
--*.png            # Visualization outputs
+•	habit.py              # Habit class with streak calculation
+•	habit_manager.py      # Manages multiple habits and persistence
+•	analytics.py          # Pure analytics functions
+•	visualize.py          # Visual analytics with matplotlib
+•	main.py              # CLI application entry point
+•	test_phase1.py       # Phase 1 functionality tests
+•	test_app.py          # Comprehensive integration tests
+•	.gitignore           # Git ignore rules
+•	habits.json          # Persistent data storage (auto-generated)
+•	tests/               # Test directory
+•	test_unit.py     # Comprehensive unit tests (25 tests)
+•	test_data_*.json # Sample test data (4 weeks)
+•	README.md        # Test data documentation
+•	visualizations/      # Generated charts and graphs
+•	*.png            # Visualization outputs
+
 
 
 ## Code Quality
